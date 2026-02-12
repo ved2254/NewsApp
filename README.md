@@ -1,16 +1,56 @@
-# React + Vite
+<img width="1866" height="888" alt="image" src="https://github.com/user-attachments/assets/36a2d437-f096-4012-bd45-58bf57eb4e13" /># 📰 NewsApp – Modern React News Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive News Application built with **React + Tailwind CSS**.  
+It fetches real-time news using the **NewsAPI** and supports category filtering, search functionality, and dark mode.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Features
 
-## React Compiler
+- 🔍 Search News Articles
+- 🌎 Category-Based Filtering
+- 🌙 Dark / Light Mode Toggle
+- 📱 Fully Responsive Design
+- ⚡ Real-time API Data Fetching
+- 🔄 Loading Spinner
+- 🎨 Modern UI with Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![NewsApp Preview]()<img width="1866" height="888" alt="fdc6dc44-448f-4c68-959a-0df1914489e7" src="https://github.com/user-attachments/assets/247c9b74-74e1-4d50-a2d1-51b73edb91d4" />
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **React JS**
+- **Tailwind CSS**
+- **Axios**
+- **React Router DOM**
+- **Lucide Icons**
+- **NewsAPI**
+- **Context API (Theme Management)**
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ ├── NewsCard.jsx
+│
+├── pages/
+│ ├── News.jsx
+│
+├── context/
+│ ├── ThemeContext.jsx
+│
+├── App.jsx
+├── main.jsx
+
+
+
