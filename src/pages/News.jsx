@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import NewsCard from '../components/NewsCard';
+import NewsCard from '../components/Newscard';
 import { Loader2 } from 'lucide-react';
 
 const News = ({ country, category, articles, setArticles }) => {
